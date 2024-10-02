@@ -11,6 +11,7 @@ import B5 from "../assets/B5.png"
 import G5 from "../assets/G5.png"
 import {useEffect,useRef} from "react"
 import TestimonialCard from './TestimonialCard'
+
 function Slideshow() {
   const carouselref=useRef()
   const btn=useRef()
@@ -118,4 +119,4 @@ function Slideshow() {
   )
 }
 
-export default Slideshow
+export default Slideshow;

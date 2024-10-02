@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Card({imgurl,coursename,authorname,lessons}) {
+function Card({imgurl,coursename,authorname,lessons}) {
   return (
     <a href="#" className="course-box">
         <div className="course-image">
@@ -14,3 +14,4 @@ export default function Card({imgurl,coursename,authorname,lessons}) {
     </a>
   )
 }
+export default Card;

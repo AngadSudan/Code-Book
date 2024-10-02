@@ -37,6 +37,7 @@ function CourseCards() {
                     <Card imgurl={php} coursename={"PHP"} authorname={"Anurag Tiwari"} lessons={65}></Card>
                     <Card imgurl={react} coursename={"React"} authorname={"Amman Dhattarwal"} lessons={65}></Card>
                     <Card imgurl={next} coursename={"Next.js"} authorname={"College Wallah"} lessons={25}></Card>
+
                 </div>      
             </div>
     </>
